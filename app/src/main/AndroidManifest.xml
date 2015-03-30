@@ -17,5 +17,13 @@
             </intent-filter>
         </activity>
     </application>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.robrion.myapplication.MyActivity" />
+        </activity>
 
 </manifest>
