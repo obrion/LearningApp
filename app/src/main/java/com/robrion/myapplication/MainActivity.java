@@ -40,7 +40,8 @@ public class MainActivity extends Activity {
                 //openSearch();
                 return true;
             case R.id.action_settings:
-                //openSettings();
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
